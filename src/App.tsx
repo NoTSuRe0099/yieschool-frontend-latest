@@ -1,19 +1,19 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
-
-
+import Navbar from "./Components/Navbar/Navbar";
 type Props = {};
 
 const App: React.FC<Props> = () => {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
-  );
+    return (
+        <>
+            <Navbar />
+            <Routes>
+                <Route path="" element={<h1>Home</h1>} />
+            </Routes>
+        </>
+    );
 };
 
 export default App;
