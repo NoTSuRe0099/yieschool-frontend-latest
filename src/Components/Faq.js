@@ -48,7 +48,7 @@ const Faq = () => {
 
  
   return (
-    <div className="md:mx-32 md:my-20 grid grid-cols-2 gap-3">
+    <div className="md:mx-32 mt-3 md:my-20 grid md:grid-cols-2 sm:grid-cols-1 gap-3">
       <div class="accordion" id="accordionExample">
   <div class="accordion-item bg-white border border-gray-200">
     <h2 class="accordion-header mb-0" id="headingOne">
