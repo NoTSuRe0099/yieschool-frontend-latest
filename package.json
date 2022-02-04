@@ -39,6 +39,7 @@
   "author": "Devesh Nene",
   "license": "ISC",
   "dependencies": {
-    "react-icons": "^4.3.1"
+    "react-icons": "^4.3.1",
+    "tw-elements": "^1.0.0-alpha10"
   }
 }
